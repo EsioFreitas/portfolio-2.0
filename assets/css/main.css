@@ -23,9 +23,16 @@ h1, h2, h3, p {
     border-radius: .1rem;
     font-weight: 500;
     display: inline-block;
+    opacity: 1 !important;
+    box-shadow: 1px 2px 3px #35353590;
 }
 
 .btn__primary{
     background-color: #005778;
     color: #f7f7f7;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
 }

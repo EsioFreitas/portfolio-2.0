@@ -5,17 +5,34 @@
     height: 85vh;
 }
 
-.header__content{
+.header__navbar{
+    position: relative;
+    background-color: #353535;
+}
+
+.header__navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__nav a{
+    text-decoration: none;
+    color: #f7f7f7;
+    padding: 1rem 0;
+    display: block;
+    width: 100%;
+    transition: 0.8s ease;
+    transition: max-height 1s;
 
 }
 
 .header__content {
-    background-color: #f7f7f7;
-    opacity: .9;
+    background-color: rgba(247, 247, 247, 0.8);
     width: 50%;
     padding: 1rem;
     width: 100%;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .header__content h1{
