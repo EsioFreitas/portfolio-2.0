@@ -1,0 +1,31 @@
+html, body {
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+p, .btn{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, p {
+    color: #353535;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    padding: .6rem .7rem;
+    border-radius: .1rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.btn__primary{
+    background-color: #005778;
+    color: #f7f7f7;
+}

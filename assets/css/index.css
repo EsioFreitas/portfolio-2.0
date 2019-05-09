@@ -1,0 +1,23 @@
+.header{
+    background-image: url('/assets/images/header.jpg');
+    background-size: cover;
+    background-position: bottom left;
+    height: 85vh;
+}
+
+.header__content{
+
+}
+
+.header__content {
+    background-color: #f7f7f7;
+    opacity: .9;
+    width: 50%;
+    padding: 1rem;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.header__content h1{
+    text-transform: uppercase;
+}
