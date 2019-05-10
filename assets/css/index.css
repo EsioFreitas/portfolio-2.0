@@ -1,3 +1,7 @@
+section {
+    padding: 2.5rem 0;
+}
+
 .header {
     background-image: url('/assets/images/header.jpg');
     background-size: cover;
@@ -60,7 +64,7 @@
     padding-bottom: 2rem;
     width: 100%;
     position: absolute;
-    top: 23%;
+    top: 20%;
     z-index: 1;
 }
 
@@ -78,7 +82,6 @@
 
 .information {
     text-align: center;
-    margin: 3rem 0;
 }
 
 .information__container {
@@ -106,13 +109,12 @@
     color: #005778;
 }
 
-.orcamento{
+.orcamento {
     background-color: #005778;
     text-align: center;
-    padding: 2rem 0;
 }
 
-.orcamento h3, .orcamento p{
+.orcamento h3, .orcamento p {
     color: #f7f7f7;
     text-align: center;
 }
@@ -120,4 +122,17 @@
 .orcamento p {
     margin: 2rem 0;
     font-weight: 200;
+}
+
+.metodos__metodo{
+    margin: 1rem 0;
+    font-weight: normal;
+}
+
+.metodos__metodo h3{
+    font-weight: 600;
+}
+
+.metodos__metodo:first-child{
+    margin-bottom: 3rem;
 }
