@@ -3,11 +3,13 @@
     background-size: cover;
     background-position: bottom left;
     height: 85vh;
+    position: relative;
 }
 
 .header__navbar {
     position: relative;
     transition: max-height .5s ease-in;
+    z-index: 50;
 }
 
 .header__navbar ul {
@@ -43,17 +45,23 @@
 }
 
 .header__nav-container {
-    background-color: rgb(53, 53, 53, .9);
+    background-color: rgb(53, 53, 53);
     padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .header__content {
-    background-color: rgba(247, 247, 247, 0.8);
+    background-color: rgba(247, 247, 247, 0.85);
     width: 50%;
     padding: 1rem;
     padding-bottom: 2rem;
     width: 100%;
-    margin-top: 3rem;
+    position: absolute;
+    top: 23%;
+    z-index: 1;
 }
 
 .header__content h1 {
@@ -96,4 +104,20 @@
 .information__info i {
     font-size: 5rem;
     color: #005778;
+}
+
+.orcamento{
+    background-color: #005778;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.orcamento h3, .orcamento p{
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.orcamento p {
+    margin: 2rem 0;
+    font-weight: 200;
 }

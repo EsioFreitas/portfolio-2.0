@@ -38,6 +38,16 @@ h1, h2, h3, p {
     background-color: #004763;
 }
 
+.btn__secundary{
+    background-color: #f7f7f7;
+    transition: background-color .8s ease;
+    color: #005778;
+}
+
+.btn__secundary:hover{
+    background-color: #d3d3d3;
+}
+
 .container{
     width: 90%;
     margin: 0 auto;
