@@ -16,12 +16,12 @@
     list-style: none;
 }
 
-.header__text{
+.header__text {
     font-size: 1.5rem;
     letter-spacing: .5rem;
 }
 
-.header__text, .header__nav a{
+.header__text, .header__nav a {
     text-decoration: none;
     letter-spacing: .2rem;
     color: #f7f7f7;
@@ -30,7 +30,7 @@
     font-weight: 700;
 }
 
-.header__nav a{
+.header__nav a {
     transition: 0.8s ease;
     padding: 1rem 0;
     width: 100%;
@@ -58,6 +58,7 @@
 
 .header__content h1 {
     text-transform: uppercase;
+    width: 19rem;
 }
 
 .header__btn {
@@ -65,4 +66,34 @@
     color: #f7f7f7;
     background-color: rgb(53, 53, 53, .7);
     font-size: 2rem;
+}
+
+.information {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.information__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information__info {
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.information__info p {
+    font-weight: 300;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.information__info h3 {
+    margin: 1rem 0;
+}
+
+.information__info i {
+    font-size: 5rem;
+    color: #005778;
 }
