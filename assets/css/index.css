@@ -1,5 +1,5 @@
 section {
-    padding: 2.5rem 0;
+    padding: 2rem 0;
 }
 
 .header {
@@ -114,7 +114,7 @@ section {
     text-align: center;
 }
 
-.orcamento h3, .orcamento p {
+.orcamento h2, .orcamento p {
     color: #f7f7f7;
     text-align: center;
 }
@@ -124,15 +124,41 @@ section {
     font-weight: 200;
 }
 
-.metodos__metodo{
+.metodos__metodo {
     margin: 1rem 0;
     font-weight: normal;
 }
 
-.metodos__metodo h3{
+.metodos__metodo h3 {
     font-weight: 600;
 }
 
-.metodos__metodo:first-child{
-    margin-bottom: 3rem;
+.metodos__metodo:first-child {
+    margin-bottom: 2rem;
+}
+
+.tech {
+    background-color: #005778;
+}
+
+.tech ul {
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+    color: #f7f7f7;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+    /*     grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    */
+}
+
+.tech li {
+    margin: 0 .5rem;
+    display: inline-block;
 }
